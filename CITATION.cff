@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+type: software
+title: "TRANS_014: RNA-seq DGE Analysis — Mus musculus BMDMs Spic KO × Heme"
+authors:
+  - family-names: Lainé
+    given-names: Hugo
+    affiliation: "Gulbenkian Institute for Molecular Medicine, Oeiras, Portugal"
+    email: lain.hugo@gmail.com
+version: "1.0.0"
+date-released: "2026-05-23"
+license: MIT
+repository-code: "https://github.com/ArtScen/TRANS_014_DGE_analysis"
+abstract: >
+  Self-contained R script for differential gene expression analysis of 
+  RNA-seq data from bone marrow-derived macrophages (BMDMs) in a 2×2 
+  factorial design (Spic KO × Heme treatment). Implements DESeq2 with 
+  a full interaction model, four pairwise contrasts, PCA, and targeted 
+  pathway heatmaps.
+keywords:
+  - RNA-seq
+  - DESeq2
+  - macrophages
+  - transcriptomics
+  - Spic
+  - heme
+  - Mus musculus
+# Uncomment and fill in once the paper is published:
+# preferred-citation:
+#   type: article
+#   title: "Your paper title here"
+#   authors: [...]
+#   journal: "Journal Name"
+#   year: 2026
+#   doi: "10.xxxx/xxxxx"

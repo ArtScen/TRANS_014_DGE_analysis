@@ -1,0 +1,21 @@
+# R output and temporary files
+*.Rhistory
+*.RData
+*.Rproj.user/
+.Rproj.user
+
+# Analysis outputs (data, results, figures)
+*.csv
+*.pdf
+*.fc
+*.gtf
+*.bam
+*.fastq
+*.fastq.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# renv library (if you use renv, the lockfile is committed but not the library)
+renv/library/
